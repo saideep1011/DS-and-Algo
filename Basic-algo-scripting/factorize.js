@@ -15,4 +15,4 @@ function factorialize(num) {
   }
 }
 
-console.log(factorialize(5));
+console.log(factorialize(8));
