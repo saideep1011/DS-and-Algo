@@ -8,4 +8,4 @@ function reverseString(str) {
   return newString.join("");
 }
 
-console.log(reverseString("hello"));
+console.log(reverseString("saideep"));
