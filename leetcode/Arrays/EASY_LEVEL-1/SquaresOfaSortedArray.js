@@ -24,7 +24,7 @@
 // continue this process
 
 var sortedSquares = function (nums) {
-  let result = new Array(nums.length);
+  let result = [];
   let left = 0;
   let right = nums.length - 1;
   let resultIndex = nums.length - 1;
@@ -45,4 +45,4 @@ var sortedSquares = function (nums) {
   return result;
 };
 
-console.log(sortedSquares([-4, -1, 0, 3, 10]));
+console.log(sortedSquares([-4,-1,0,3,10]));
