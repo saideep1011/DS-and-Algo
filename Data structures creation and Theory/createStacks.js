@@ -42,3 +42,15 @@ console.log(ourStack._top);
 //let remove the last elemnt and console it
 console.log(ourStack.pop()); // we get last elemt popped out and return value of that is 2
 console.log(ourStack); // Stack { _top: 1, _values: [ 0, 1 ] }
+
+// Does Javascript  has a built-in Stack?
+// Yes. In fact, the Array in Javascript acts as a
+// stack and already has the appropriate methods to use it like a stack. Look at the  code below:
+// var stack = [];
+// console.log('Push 100 in stack');
+// stack.push(100);
+// console.log('Popped from Stack: ' + stack.pop());
+// Summary
+// Stack is a LIFO data structure.
+// Stack has 3 basic operations: Push, Pop and Peek.
+// Javascript Array is actually a stack and supports Push and Pop.
