@@ -13,14 +13,15 @@
 // It does not matter what you leave beyond the returned k (hence they are underscores).
 
 var removeDuplicates = function (nums) {
-  let j = 1;
-  for (let i = 1; i < nums.length; i++) {
-    if (nums[j - 1] !== nums[i]) {
-      nums[j] = nums[i];
-      j += 1;
-    }
-  }
+    let j = 1;
+	for(let i = 1; i< nums.length; i++) {
+		if(nums[j - 1] !== nums[i]) {
+			nums[j] = nums[i];
+			j +=1;
+		}
 
-  return nums;
+	}
+
+	return j;
 };
-console.log(removeDuplicates([1,1,2]));
+console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
