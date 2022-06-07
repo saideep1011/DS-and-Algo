@@ -45,7 +45,7 @@ Dictionary.prototype.delete = function (key) {
 var dict = new Dictionary();
 dict.add("alice", 123);
 dict.add("eve", 456);
-dict.add("bob", 789);
-// console.log(dict); //Dictionary { _data: { alice: 123, eve: 456, bob: 789 }, _length: 3 }
+dict.add("bob", [7, 8, 9]);
+console.log(dict); // Dictionary {  _data: { alice: 123, eve: 456, bob: [ 7, 8, 9 ] },     _length: 3  }
 // console.log("dict.find('alice') = " + dict.find("alice"));  o/p dict.find('alice') = 123
 // console.log("dict.find('foo') = " + dict.find("foo")); o/p dict.find('alice') = 123
